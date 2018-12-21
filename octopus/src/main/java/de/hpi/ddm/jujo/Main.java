@@ -1,12 +1,14 @@
 package de.hpi.ddm.jujo;
 
+//JCommander is a very small Java framework that makes it trivial to parse command line parameters. 
+//http://jcommander.org/#_overview
 import com.beust.jcommander.JCommander;
 import com.beust.jcommander.Parameter;
 import com.beust.jcommander.ParameterException;
 import com.beust.jcommander.Parameters;
 
-import java.net.InetAddress;
-import java.net.UnknownHostException;
+import java.net.InetAddress; //Class InetAddress +java.lang.Object:java.net.InetAddress>All Implemented Interfaces:Serializable>Direct Known Subclasses:dress, Inet6Address
+import java.net.UnknownHostException; ////java.lang.Object>java.lang.Throwable>java.lang.Exception>java.io.IOException>java.net.UnknownHostException: Thrown to indicate that the IP address of a host could not be determined. 
 
 public class Main {
 
